@@ -1,0 +1,88 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID.  INVENTORY.
+      *DO_1: Write your name next to Author and the date below.
+       Author. Derek Schultz
+       Date-Written. 2/28/2018
+      *****************************************************************
+      * This program reads a record from the keyboard and writes that
+      * information to another file. The user indicated they are done
+      * by typing a 'N'.
+      *
+      * Input file
+      *  None
+      * Output
+      *  1  -  5  part number (alphanumeric)
+      *  6  - 20  part description (alphanumeric)
+      * 21  - 25  quantity on hand (N, no decimals)
+      * 26  - 30  unit price (2 decimal places)
+      *
+      * infile = None
+      * outfile = C:\COBOL\INVFILE.DAT
+      *****************************************************************
+
+       ENVIRONMENT DIVISION.
+       INPUT-OUTPUT SECTION.
+       FILE-CONTROL.
+      *DO_2: Create a line sequential output file variable named
+      *      OUTPUT-FILE, assign to variable UT-SYS-INVFILE, filling in 
+      *      the missing info below.
+       SELECT OUTPUT-FILE
+                ASSIGN TO UT-SYS-INVFILE
+                ORGANIZATION IS LINE SEQUENTIAL.
+       DATA DIVISION.
+       FILE SECTION.
+      *DO_3: Complete the FD line below, referencing the file variable
+      *      you created in DO_2. 
+       FD  OUTPUT-FILE
+           RECORD CONTAINS 30 CHARACTERS.
+       01  OUTPUT-RECORD.
+           05 PART-NO                                  PIC X(5).
+           05 PART-DESCRIPTION                         PIC X(15).
+           05 QTY-ON-HAND                              PIC 9(5).
+           05 UNIT-PRICE                               PIC 9(3)V99.
+       WORKING-STORAGE SECTION.
+       01  MORE-PARTS                                  PIC X VALUE "Y".
+           88 NO-MORE-PARTS                                  VALUE "N".
+      *DO_4: Create a 01-level group named WS-FILES, that has a
+      *      05-level field named the same as the ASSIGN variable in 
+      *      DO_2, an alphanumeric field of size 50, with a VALUE that
+      *      references the path and file name for INVFILE.DAT you will  
+      *      be writing the data to on your computer for this homework
+      *      assignment. For example, you can list
+      *      VALUE "C:\COBOL\INVFILE.DAT" if that is where you want it
+      *      to be created and saved.
+       01 WS-FILES.
+           05 UT-SYS-INVFILE     PIC X(50) VALUE "C:\COBOL\INVFILE.DAT".
+
+
+       PROCEDURE DIVISION.
+       000-MAIN-MODULE.
+           PERFORM 100-INITIALIZATION-MODULE
+           PERFORM 200-WRITE-RECORDS-MODULE
+                   UNTIL NO-MORE-PARTS
+           PERFORM 900-TERMINATION-MODULE
+      *DO_5: Stop the program.   
+       STOP RUN.
+
+
+       100-INITIALIZATION-MODULE.
+      *DO_6: Open for OUTPUT the output file variable you created in DO_2. 
+           OPEN OUTPUT-FILE.
+       200-WRITE-RECORDS-MODULE.
+           INITIALIZE OUTPUT-RECORD
+           DISPLAY SPACES
+           DISPLAY "ENTER PART NO"
+           ACCEPT PART-NO
+           DISPLAY "ENTER THE PART DESCRIPTION:"
+           ACCEPT PART-DESCRIPTION
+           DISPLAY "ENTER THE QUANTITY ON HAND:"
+           ACCEPT QTY-ON-HAND
+           DISPLAY "ENTER THE UNIT-PRICE:"
+           ACCEPT UNIT-PRICE
+           WRITE OUTPUT-RECORD
+           DISPLAY "DO YOU WISH TO CONTINUE?(Y/N)"
+           ACCEPT MORE-PARTS.
+       900-TERMINATION-MODULE.
+      *DO_7: CLOSE for OUTPUT the output file variable you created
+      *      in DO_2.
+           

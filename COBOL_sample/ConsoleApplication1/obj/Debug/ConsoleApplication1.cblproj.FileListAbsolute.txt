@@ -1,0 +1,4 @@
+J:\COBOL\COBOL_sample\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+J:\COBOL\COBOL_sample\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+J:\COBOL\COBOL_sample\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+J:\COBOL\COBOL_sample\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

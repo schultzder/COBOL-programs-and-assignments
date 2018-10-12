@@ -1,0 +1,5 @@
+J:\COBOL\COBAL_PROGRAMS\Program3\bin\Debug\Program3.exe
+J:\COBOL\COBAL_PROGRAMS\Program3\bin\Debug\Program3.pdb
+J:\COBOL\COBAL_PROGRAMS\Program3\obj\Debug\Program3.cblprojResolveAssemblyReference.cache
+J:\COBOL\COBAL_PROGRAMS\Program3\obj\Debug\Program3.exe
+J:\COBOL\COBAL_PROGRAMS\Program3\obj\Debug\Program3.pdb

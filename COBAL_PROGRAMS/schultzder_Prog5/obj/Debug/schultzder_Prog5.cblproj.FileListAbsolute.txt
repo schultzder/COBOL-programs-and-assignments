@@ -1,0 +1,5 @@
+J:\COBOL\COBAL_PROGRAMS\schultzder_Prog5\obj\Debug\schultzder_Prog5.cblprojResolveAssemblyReference.cache
+J:\COBOL\COBAL_PROGRAMS\schultzder_Prog5\bin\Debug\schultzder_Prog5.exe
+J:\COBOL\COBAL_PROGRAMS\schultzder_Prog5\bin\Debug\schultzder_Prog5.pdb
+J:\COBOL\COBAL_PROGRAMS\schultzder_Prog5\obj\Debug\schultzder_Prog5.exe
+J:\COBOL\COBAL_PROGRAMS\schultzder_Prog5\obj\Debug\schultzder_Prog5.pdb

@@ -1,0 +1,27 @@
+DEREK SCHULTZ                                        REPORT MASTER FILE                                             PAGE  01
+
+ANDRE SANDOVAL
+                                                                                                                  05/08/2018
+
+CLIENT CLIENT                   UNIT PRICE   QUANTITY        TOTAL SALE       SALES TAX    FINAL SALE TRANSACTION
+ NO     NAME                                   SOLD                                                      CODE
+
+0001   DEREK                           $7.00       10            $70.00          $4.55        $74.55  DELETED
+0002   DEREK                           $8.00       10            $80.00          $5.20        $85.20  ADDED
+0005   DEREK                           $6.00       10            $60.00          $3.90        $63.90  UPDATED
+0006   DEREK                           $4.00       10            $40.00          $2.60        $42.60  ADDED
+0007   DEREK                           $6.00       10            $60.00          $3.90        $63.90  DELETED
+0008   DEREK                           $5.00       10            $50.00          $3.25        $53.25  ADDED
+0009   DEREK                           $7.00       10            $70.00          $4.55        $74.55  UPDATED
+0010   DEREK                           $6.00       10            $60.00          $3.90        $63.90  UPDATED
+0010   DEREK                           $6.00       10            $60.00          $3.90        $63.90  ADDED
+0011                                    $.00        0             $0.00          $0.00         $0.00  ADDED
+0012                                    $.00        0             $0.00          $0.00         $0.00  ADDED
+0013                                   $6.00        0             $0.00          $0.00         $0.00  ADDED
+0014                                   $7.00        0             $0.00          $0.00         $0.00  ADDED
+0015   DEREK                           $5.00        6            $30.00          $1.95        $31.95  DELETED
+0016   DEREK                           $8.00       10            $80.00          $5.20       $864.20  ADDED
+0020   DEREK                           $4.00       30           $120.00          $7.80       $127.80  UPDATED
+0020   DEREK                           $4.00       30           $120.00          $7.80       $127.80  ADDED
+0025   DEREK                           $6.00       10            $60.00          $3.90        $63.90  DELETED
+0030   DEREK                           $6.00       10            $60.00          $3.90        $63.90  DELETED

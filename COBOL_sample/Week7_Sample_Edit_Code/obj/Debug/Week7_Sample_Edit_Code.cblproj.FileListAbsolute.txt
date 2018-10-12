@@ -1,0 +1,5 @@
+J:\COBOL\COBOL_sample\Week7_Sample_Edit_Code\bin\Debug\Week7_Sample_Edit_Code.exe
+J:\COBOL\COBOL_sample\Week7_Sample_Edit_Code\bin\Debug\Week7_Sample_Edit_Code.pdb
+J:\COBOL\COBOL_sample\Week7_Sample_Edit_Code\obj\Debug\Week7_Sample_Edit_Code.cblprojResolveAssemblyReference.cache
+J:\COBOL\COBOL_sample\Week7_Sample_Edit_Code\obj\Debug\Week7_Sample_Edit_Code.exe
+J:\COBOL\COBOL_sample\Week7_Sample_Edit_Code\obj\Debug\Week7_Sample_Edit_Code.pdb

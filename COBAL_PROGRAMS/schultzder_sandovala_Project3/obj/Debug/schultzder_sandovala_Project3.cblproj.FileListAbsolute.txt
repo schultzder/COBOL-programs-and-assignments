@@ -1,0 +1,5 @@
+J:\COBOL\COBAL_PROGRAMS\schultzder_sandovala_Project3\obj\Debug\schultzder_sandovala_Project3.cblprojResolveAssemblyReference.cache
+J:\COBOL\COBAL_PROGRAMS\schultzder_sandovala_Project3\bin\Debug\schultzder_sandovala_Project3.exe
+J:\COBOL\COBAL_PROGRAMS\schultzder_sandovala_Project3\bin\Debug\schultzder_sandovala_Project3.pdb
+J:\COBOL\COBAL_PROGRAMS\schultzder_sandovala_Project3\obj\Debug\schultzder_sandovala_Project3.exe
+J:\COBOL\COBAL_PROGRAMS\schultzder_sandovala_Project3\obj\Debug\schultzder_sandovala_Project3.pdb

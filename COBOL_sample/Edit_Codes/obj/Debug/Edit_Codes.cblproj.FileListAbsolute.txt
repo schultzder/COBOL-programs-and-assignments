@@ -1,0 +1,5 @@
+J:\COBOL\COBOL_sample\Edit_Codes\bin\Debug\Edit_Codes.exe
+J:\COBOL\COBOL_sample\Edit_Codes\bin\Debug\Edit_Codes.pdb
+J:\COBOL\COBOL_sample\Edit_Codes\obj\Debug\Edit_Codes.cblprojResolveAssemblyReference.cache
+J:\COBOL\COBOL_sample\Edit_Codes\obj\Debug\Edit_Codes.exe
+J:\COBOL\COBOL_sample\Edit_Codes\obj\Debug\Edit_Codes.pdb

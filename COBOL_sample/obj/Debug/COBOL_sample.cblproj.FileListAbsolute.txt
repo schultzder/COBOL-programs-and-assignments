@@ -1,0 +1,5 @@
+J:\COBOL\COBOL_sample\obj\Debug\COBOL_sample.cblprojResolveAssemblyReference.cache
+J:\COBOL\COBOL_sample\bin\Debug\COBOL_sample.exe
+J:\COBOL\COBOL_sample\bin\Debug\COBOL_sample.pdb
+J:\COBOL\COBOL_sample\obj\Debug\COBOL_sample.exe
+J:\COBOL\COBOL_sample\obj\Debug\COBOL_sample.pdb
